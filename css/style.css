@@ -8,6 +8,7 @@ h1 , h2 {
 }
 .header-section {
     background-color: #FFF9F4;
+    padding: 20px 0 80px;
 }
 .navy-img {
     width: 291.11px;
@@ -24,6 +25,18 @@ border-radius: 10px;
 border: none;
 color: #fff;
 }
-.w-40 {
-    width: 40%;
+main, footer {
+    background: #E5E5E5;
+}
+.cards {
+    width: 352px;
+}
+.shoe-div {
+    background-color: #F1F1F1;
+    width: 334px;
+height: 327px;
+}
+.shoe-img {
+    width: 236px;
+height: 262px;
 }
