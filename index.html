@@ -5,48 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike React</title>
+    <!-- fontawesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <!-- Bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header-section">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-md navbar-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
+                  <a class="navbar-brand" href="#">
+                    <img class="navy-img" src="./icons/Logo.png" alt="">
+                  </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                      <li class="nav-item ms-0 ms-md-2 ms-lg-5">
+                        <a class="nav-link" href="#">Product</a>
                       </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                      <li class="nav-item ms-0 ms-md-2 ms-lg-5">
+                        <a class="nav-link" href="#">About us</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                      <li class="nav-item ms-0 ms-md-2 ms-lg-5">
+                        <a class="nav-link" href="#">Contact us</a>
                       </li>
-                    </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                   </div>
                 </div>
               </nav>
+              <section class="hero-area mt-5">
+                <div class="row align-items-center gy-3">
+                  <div class="col-md-6">
+                    <div class="row justify-content-center justify-content-lg-start">
+                      <div class="col-10">
+                        <div>
+                          <img class="img-fluid" src="./images/Group 33092.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-md-6  text-center text-lg-start">
+                    <h1 class="display-3"><span>Nike React</span> <br> Infinity Run 2 </h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <button class="buttom"><i class="fas fa-shopping-cart"></i> BUY NOW</button>
+                  </div>
+                </div>
+              </section>
         </div>
     </header>
 

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&family=Roboto:wght@400;700;900&display=swap');
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+h1 , h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+.header-section {
+    background-color: #FFF9F4;
+}
+.navy-img {
+    width: 291.11px;
+height: 39.27px;
+}
+span {
+    color: #FA804C;
+}
+.buttom {
+    background: linear-gradient(to bottom, #3D4FF3, #3543BC);
+    width: 170px;
+height: 60px;
+border-radius: 10px;
+border: none;
+color: #fff;
+}
+.w-40 {
+    width: 40%;
+}
